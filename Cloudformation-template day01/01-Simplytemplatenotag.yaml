@@ -1,0 +1,7 @@
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c4f7d4b4c66bd8a6 # Amazon Linux AMI in Soa Paulo
+      

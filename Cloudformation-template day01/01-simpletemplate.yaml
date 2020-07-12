@@ -1,0 +1,7 @@
+Resources:
+  Ec2Instance:
+  Type: 'AWS::EC2::Instance'
+  Properties:
+  InstanceType: t2.micro
+  ImageId: ami-0d078087693937342 # Amazon Linux AMI
+  Keyname: X529828-SP
